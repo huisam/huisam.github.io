@@ -2,7 +2,7 @@
 layout: post
 title: "Implementing Idempotent HTTP APIs with the Idempotency-Key Header"
 date: 2026-07-28 20:07:00 +0900
-categories: [Developer, Spring]
+categories: [Backend, Spring]
 tags: [spring, kotlin, http, idempotency, resilience]
 ---
 
