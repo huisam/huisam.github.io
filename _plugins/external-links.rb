@@ -10,7 +10,7 @@ Jekyll::Hooks.register [:pages, :posts], :post_render do |doc|
     href = link["href"]
     next if href.nil? || href.empty?
     next if href.start_with?("/", "#", "mailto:", "tel:")
-    next if site_url.present? && href.start_with?(site_url)
+    next if !site_url.empty? && href.start_with?(site_url)
 
     link["target"] = "_blank"
     link["rel"] = "noopener noreferrer"
