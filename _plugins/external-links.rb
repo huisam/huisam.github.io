@@ -3,7 +3,7 @@ require "nokogiri"
 Jekyll::Hooks.register [:pages, :posts], :post_render do |doc|
   next unless doc.output_ext == ".html"
 
-  parsed = Nokogiri::HTML.fragment(doc.output)
+  parsed = Nokogiri::HTML5.parse(doc.output)
   site_url = doc.site.config["url"] || ""
 
   parsed.css("a[href]").each do |link|
