@@ -16,7 +16,7 @@ In this post I want to walk through the code and find the exact points where Web
 
 If you are not yet comfortable with coroutines, the post below is a good place to start.
 
-> [\[Kotlin\] Coroutine - 2. CoroutineScope & Context & Dispatcher](https://huisam.tistory.com/entry/coroutine2)
+> [\[Kotlin\] Coroutine - 2. Digging into CoroutineScope, Context & Dispatcher](/posts/coroutine-scope-context-dispatcher)
 
 ## Spring WebFlux
 
